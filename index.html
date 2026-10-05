@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consumo de Energia Elétrica no Brasil | Projeto G2</title>
+<style>
+:root{--bg:#071923;--card:#102936;--accent:#31c48d;--text:#f5f7fa;--muted:#b8c7d1;--light:#eef4f6}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--light);color:#12212b;line-height:1.6}
+.hero{background:radial-gradient(circle at 85% 20%,#1c6b69 0,#0b3d4d 35%,#071923 75%);color:var(--text);padding:76px 7% 90px}
+.hero .tag{display:inline-block;padding:7px 12px;border:1px solid #ffffff35;border-radius:999px;color:#c9ffe9;font-size:14px;margin-bottom:18px}
+.hero h1{font-size:clamp(36px,6vw,66px);line-height:1.05;max-width:900px;margin:0 0 20px}.hero p{max-width:760px;color:var(--muted);font-size:19px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:12px 18px;border-radius:9px;text-decoration:none;font-weight:700;background:var(--accent);color:#052017}.btn.secondary{background:#ffffff12;color:white;border:1px solid #ffffff35}
+.container{max-width:1180px;margin:auto;padding:58px 22px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}.card{background:white;border-radius:16px;padding:24px;box-shadow:0 8px 30px #10293612;border:1px solid #dce6ea}.card h3{margin-top:0}.num{font-size:30px;font-weight:800;color:#0b6b57}.section{margin-bottom:54px}.section h2{font-size:32px;margin-bottom:10px}.section>p{color:#52636d;max-width:820px}
+.kpi{background:#102936;color:white}.kpi .num{color:#67e8b3}.tech{display:flex;flex-wrap:wrap;gap:10px}.tech span{background:#dcefe9;color:#0b5747;padding:8px 12px;border-radius:999px;font-weight:700;font-size:14px}
+footer{background:#071923;color:#b8c7d1;text-align:center;padding:30px 20px;font-size:14px}
+</style>
+</head>
+<body>
+<header class="hero">
+  <span class="tag">Projeto G2 · Tema 14</span>
+  <h1>Consumo de Energia Elétrica no Brasil</h1>
+  <p>Uma aplicação analítica para investigar evolução temporal, diferenças regionais e setoriais, sazonalidade, demanda, eficiência energética e emissões de CO₂.</p>
+  <div class="actions">
+    <a class="btn" href="https://github.com/SEU-USUARIO/projeto-consumo-energia">Repositório GitHub</a>
+    <a class="btn secondary" href="https://SEU-APP.streamlit.app">Abrir Dashboard</a>
+  </div>
+</header>
+<main class="container">
+<section class="section">
+  <h2>Sobre o projeto</h2>
+  <p>O projeto utiliza uma base simulada de consumo de energia elétrica no Brasil para identificar padrões de consumo, períodos de maior demanda, diferenças entre estados e setores e possíveis relações entre temperatura e consumo.</p>
+  <div class="grid">
+    <div class="card kpi"><div class="num">2015–2024</div><strong>Período analisado</strong><p>Dez anos de observações.</p></div>
+    <div class="card kpi"><div class="num">4.440</div><strong>Registros</strong><p>Base utilizada na análise.</p></div>
+    <div class="card kpi"><div class="num">14</div><strong>Variáveis</strong><p>Indicadores energéticos e socioeconômicos.</p></div>
+  </div>
+</section>
+<section class="section">
+  <h2>Principais análises</h2>
+  <div class="grid">
+    <div class="card"><h3>Evolução temporal</h3><p>Consumo ao longo dos anos e identificação de tendências.</p></div>
+    <div class="card"><h3>Regiões e estados</h3><p>Comparação e ranking do consumo entre as unidades federativas.</p></div>
+    <div class="card"><h3>Setores</h3><p>Comparação entre os diferentes setores de consumo.</p></div>
+    <div class="card"><h3>Temperatura × consumo</h3><p>Análise da relação entre temperatura média e consumo.</p></div>
+    <div class="card"><h3>Sazonalidade</h3><p>Heatmap mensal para identificar padrões sazonais.</p></div>
+    <div class="card"><h3>Eficiência e CO₂</h3><p>Análise de eficiência energética e impacto ambiental.</p></div>
+  </div>
+</section>
+<section class="section">
+  <h2>Tecnologias</h2>
+  <div class="tech"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span><span>Plotly</span><span>Streamlit</span><span>SQLite</span><span>SQLAlchemy</span><span>GitHub</span></div>
+</section>
+<section class="section">
+  <h2>Entregáveis</h2>
+  <div class="grid">
+    <div class="card"><h3>Notebook</h3><p>Análise exploratória, tratamento, engenharia de atributos, KPIs, visualizações e conclusão.</p></div>
+    <div class="card"><h3>Dashboard</h3><p>Filtros, KPIs dinâmicos, gráficos, tabela detalhada e interpretação executiva.</p></div>
+    <div class="card"><h3>Documentação</h3><p>README, estrutura organizada e arquivos preparados para publicação.</p></div>
+  </div>
+</section>
+</main>
+<footer>Projeto acadêmico · Consumo de Energia Elétrica no Brasil · Tema 14</footer>
+</body>
+</html>

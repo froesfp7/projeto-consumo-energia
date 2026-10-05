@@ -1,0 +1,10 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.13
+plotly>=5.18
+streamlit>=1.40
+sqlalchemy>=2.0
+ipykernel>=6.0
+nbformat>=5.9
+statsmodels
