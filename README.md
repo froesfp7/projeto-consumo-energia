@@ -1,4 +1,4 @@
-# ⚡ Projeto G2 — Consumo de Energia Elétrica no Brasil
+# Projeto G2 — Consumo de Energia Elétrica no Brasil
 
 Projeto acadêmico do **Tema 14**, desenvolvido para analisar padrões de consumo de energia elétrica no Brasil.
 
@@ -63,48 +63,4 @@ Execute:
 streamlit run app.py
 ```
 
-## Publicar no GitHub
 
-Crie um repositório chamado `projeto-consumo-energia` e, dentro desta pasta, execute:
-
-```bash
-git init
-git add .
-git commit -m "Projeto G2 - Consumo de Energia"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/projeto-consumo-energia.git
-git push -u origin main
-```
-
-Substitua `SEU-USUARIO` pelo seu usuário do GitHub.
-
-## GitHub Pages
-
-No GitHub:
-
-1. Abra o repositório.
-2. Acesse **Settings → Pages**.
-3. Em **Build and deployment**, selecione **Deploy from a branch**.
-4. Selecione `main` e a pasta `/root`.
-5. Salve.
-
-O GitHub Pages publicará o `index.html`.
-
-## Streamlit Community Cloud
-
-1. Acesse o Streamlit Community Cloud.
-2. Entre com sua conta GitHub.
-3. Selecione o repositório `projeto-consumo-energia`.
-4. Escolha a branch `main`.
-5. Defina `app.py` como arquivo principal.
-6. Publique o aplicativo.
-
-## Links para preencher após a publicação
-
-- GitHub: `https://github.com/SEU-USUARIO/projeto-consumo-energia`
-- GitHub Pages: `https://SEU-USUARIO.github.io/projeto-consumo-energia/`
-- Streamlit: `https://SEU-APP.streamlit.app/`
-
-## Observação
-
-Os links acima são modelos. Depois da publicação, substitua `SEU-USUARIO` e `SEU-APP` pelos endereços reais.
