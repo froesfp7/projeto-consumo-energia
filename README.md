@@ -1,5 +1,9 @@
 # Projeto G2 — Consumo de Energia Elétrica no Brasil
 
+Aluno: Felipe Fróes Lopes Antunes
+Professor: Alexandre Neves Louzada
+Disciplina: Linguagem de programação
+
 Projeto acadêmico do **Tema 14**, desenvolvido para analisar padrões de consumo de energia elétrica no Brasil.
 
 ## Objetivo
